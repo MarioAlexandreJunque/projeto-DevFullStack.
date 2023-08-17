@@ -1,0 +1,26 @@
+
+/*borda padding seja contado como a area do elemento*/
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-container{
+    background-color: #2C3E50;
+    height: 100px;
+    width: 100%;
+}
+nav-main{
+    width: 100%;
+    max-width: 960px;/*flexibilidade*/
+    margin: 0 auto;/*centralizar um div dentro do outro
+    o nav vai ficar centralizado em relação ao pai header*/
+}
+
+.nav-main a{
+    color: #fff;
+}
