@@ -49,3 +49,24 @@ nav-main{
     font-weight: 700;
     margin-bottom: 5px;
 }
+
+.profile-container{
+    background-color: #1ABC9C;
+    color: #fff;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.profile-avatar{
+    width: 150px;
+}
+
+.profile-tilte{
+    margin: 35px 0 0 0;
+}
+
+.profile-description{
+    margin: 0;
+}
