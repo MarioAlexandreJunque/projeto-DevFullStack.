@@ -72,3 +72,31 @@ nav-main{
     margin: 0;
     font-size: 1rem; /*Relativo ao tamanho da fonte do elemento raiz(HTML)*/
 }
+
+#portifolio{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.portifolio-title{
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #2C3E50;
+}
+
+.portifolio-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;/*quebra de linha*/
+}
+
+.portifolio-item{
+    width:calc(100% - 40px);/*break point de 576*/
+    /*height: 200px;*//*break point 576*/
+    max-width: 420px;/*break point 576*/
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+}
